@@ -24,6 +24,12 @@ body{
 	background-color: #2ecc71;
 }
 
+/*Para personalizar el ícono fuente de bootstrap*/
+ .app{
+ 	font-size: 50px;
+
+ }
+
 
 
 
