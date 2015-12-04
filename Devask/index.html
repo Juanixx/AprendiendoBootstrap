@@ -21,28 +21,27 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!--Para crear una barra de navegación-->
-        <!--Se usa .nav para crear un elemento de navegación, dspués se usa la clase .nav-tabs para mostrar los enlaces en forma de pestaña-->
-
-        <!--Para crear una navegación con botones-->
-        <!--La clase .nav-pills permite visualizar los enlaces como botones-->
-
-        <!--Para mostrar una navegación con botones verticalmente se usa laclase .nav-stacked-->
-
-        <!--Navegación justificada-->
-        <!--Permite ocupar la anchura del navegador, y todos los enlaces o botones tienen la misma anchura, lo cual se logra con 
-        la clase nav-justified-->
-        <!--Éste comportamiento solo es posible en dispositivos con una anchura mayor a 768px, en el resto de dispositivos se muestra verticalmente-->
+        <!--Navegación con menús desplegables-->
 
 
-
-        <ul class="nav nav-pills nav-justified">
+        <ul class="nav nav-pills">
         <!--Se pueden activar las pestañas añadiendo la clase active a cada enlace-->
-            <li class="active"><a href="#">Enlaces</a></li>
-            <li><a href="#">Enlaces</a></li>
-            <li><a href="#">Enlaces</a></li>
-            <li><a href="#">Enlaces</a></li>
-            <li><a href="#">Enlaces</a></li>
+            <li class="active"><a href="#">Inicio</a></li>
+            <li class="disabled"><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Ayuda</a></li>
+
+            <!--Aquí se creará un menú desplegable-->
+            <li class="dropdown">
+
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cursos <span class="caret"></span> </a>
+            <!--Para añadir una flecha que indique que es un menu desplegable-->
+            <ul class="dropdown-menu">
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Django</a></li>
+                <li><a href="#">Laravel</a></li>
+            </ul>
+            </li>
         </ul>
 
 
