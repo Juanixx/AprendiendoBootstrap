@@ -2,33 +2,39 @@
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
+   ========================================================================== */7
 
-body{
-	font-size: 16px;
-}
-
-.color1{
-	background-color:#ff4444; 
-}
-
-.color2{
-	background-color: #33b5e5;
-}
-
-.color3{
-	background-color:#8e44ad; 
-}
-
-.color4{
-	background-color: #2ecc71;
-}
 
 /*Para personalizar el ícono fuente de bootstrap*/
- .app{
+ 
+
+body{
+	font-size: 20px;
+}
+.app{
  	font-size: 50px;
 
  }
+
+.color1{
+	background-color:#33b5e5; 
+}
+
+.color2{
+	background-color: #ff4444;
+}
+
+.color3{
+	background-color:#2ecc71; 
+}
+
+.color4{
+	background-color: #8e44ad;
+}
+
+.color5{
+background-color: #f39c12;
+}
 
 
 
